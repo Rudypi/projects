@@ -81,9 +81,9 @@ class PokeExercice extends React.Component {
           </form>
         </div>
         <div className="affichage">
-          <h1>{this.state.name}</h1>
-          <p>types:{this.state.types}</p>
-          <p>Base stats:{this.state.stats}</p>
+          <h1>Name: {this.state.name}</h1>
+          <p>types: {this.state.types}</p>
+          <p>Base stats: {this.state.stats}</p>
         </div>
         </div>
     );
