@@ -54,6 +54,7 @@ class PokeExercice extends React.Component {
     
   render() {
     return (
+        
         /* formulaire de recherche basique
       <form onSubmit={this.handleSubmit}>
         <label>
@@ -61,6 +62,16 @@ class PokeExercice extends React.Component {
         </label>
         
       </form>
+      
+      
+
+//         liste affichage noms
+//                <ul>
+//                    {this.state.response.map(function(affiche) {              erreur sur le map de response->inconnu 
+//                          return <li>{this.response.name}</li>
+//                     })}
+//               </ul>
+
       */
         <div>
         <div>
@@ -79,13 +90,6 @@ class PokeExercice extends React.Component {
       
   }
 }
-
-//         liste affichage noms
-//                <ul>
-//                    {this.state.response.map(function(affiche) {              erreur sur le map de response->inconnu 
-//                          return <li>{this.response.name}</li>
-//                     })}
-//               </ul>
 
 ReactDOM.render(
   <PokeExercice />,
